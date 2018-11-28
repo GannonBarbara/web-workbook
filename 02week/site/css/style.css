@@ -3,8 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+section {
+  border: 50%;
+  text-align: center;
+  display: inline-block;
+}
 .border-red {
   border: 1px solid red;
+  padding: 12px;
 }
 .border-blue {
   border: 1px solid blue;
@@ -57,4 +63,14 @@ ul li:nth-child(2) {
 header {
   height: 100vh;
   padding-top: 90px;
+}
+.blog_box1 {
+  border: 1px solid green;
+  padding: 12px;
+}
+.blog_box2 {
+  border: 1px solid blueviolet;
+}
+.blox_box3 {
+  border: 1px solid blue;
 }
