@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* background-image: url(../Images/jason-leung-490668-unsplash.jpg); */
+  background-size: 100%;
+  /* z-index: initial; */
+}
+header {
+  background-image: linear-gradient(to right, #53d140, #00bd93, #00a0c8, #007bcc, #49519f);
+  background-size: 100%;
+  margin-top: 0;
+  height: 90px;
+  width: 100%;
+}
+header h1 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-left: 70px;
+  padding-top: 40px;
+  color: whitesmoke; 
+}
+header nav {
+  text-align: end;
+  margin-top: 0;
+}
+section {
+  border: #49519f 6px;
+  height: 250px;
+  width: 100%;
+  text-align: center;
+}
+.fried_section {
+  border-block-end-color: #53d140;
+  border-width: 3px;
+}
