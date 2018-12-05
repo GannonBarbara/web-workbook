@@ -31,6 +31,7 @@ nav {
   padding: 10px 15px 10px 15px;
   background-color: rgba(128, 128, 128, 0.322);
   transition: background-color 0.3s ease;
+  z-index: 1;
 
 }
 nav:hover {
@@ -62,15 +63,51 @@ ul li:nth-child(2) {
 }
 header {
   height: 100vh;
-  padding-top: 90px;
+  background: teal;
+  position: relative;
 }
-.blog_box1 {
-  border: 1px solid green;
-  padding: 12px;
+
+header section {
+  height: 100%;
+  display: inline-block;
 }
-.blog_box2 {
-  border: 1px solid blueviolet;
+section {
+  height: 300px;
+  display: inline-block;
 }
-.blox_box3 {
-  border: 1px solid blue;
+header .firstSection {
+  width: 30%;
+  background: whitesmoke;
+  
+}
+.secondSection {
+  width: 30%;
+  background: yellow;
+}
+.thirdSection {
+  background: blue;
+  width: 30%;
+
+}
+header .header_title {
+  background: grey;
+  /* height: 100%; */
+  width: 100%; 
+  display: inline-block;
+  position: absolute;
+  top: 25%;
+}
+header .parent__h1 {
+  background: red;
+  height: 50%;
+  width: 50%;
+  margin: 100px;
+  /* position: relative; */
+}
+header h1 {
+  position: absolute;
+  top: 25%;
+  bottom: 0;
+  left: 15%;
+  right: 15%;
 }
