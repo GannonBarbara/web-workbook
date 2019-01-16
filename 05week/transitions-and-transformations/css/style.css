@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.square {
+  height: 50px;
+  width: 50px;
+  color: #eeee;
+  border-radius: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0.21em;
+  box-shadow: 10px 8px 16px 0px rgba(134, 134, 134, 0.51);
+  transition: all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.grid-container {
+  border: 1px solid peru;
+}
+.grid-container:hover .square:nth-of-type(odd) {
+  transform: scale(2,2);
+}
+.grid-container:hover .square:nth-of-type(even) {
+  transform: scale(0.5);
+}
+.square-1 {
+  background: #b03532;
+}
+.square-2 {
+  background: #33a8a5;
+}
+.square-3 {
+  background: #ff9069;
+}
+.square-4 {
+  background: #6a478f;
+}
+.square-5 {
+  background: #3d8bb1;
+}
+.square-6 {
+  background: #4464a1;
+}
+.square-7 {
+  background: #e03f3f;
+}
+.square-8 {
+  background: #59a627;
+}
+.square-9 {
+  background: #b03532;
+}
+.square-10 {
+  background: #4464a1;
+}
+.square-11 {
+  background: #33a8a5;
+}
+.square-12 {
+  background: #ff9069;
+}

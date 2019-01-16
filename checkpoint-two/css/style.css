@@ -1,1 +1,27 @@
-
+.border {
+  border: 1px solid black;
+  display: grid;
+  grid-auto-columns: 1fr 1fr;
+  grid-auto-rows: 1fr 1fr 1fr;
+}
+.abtNDpic {
+  border: 1px solid salmon;
+}
+.abt {
+  border: 1px solid greenyellow;
+}
+.pic {
+  border: 1px solid blueviolet;
+}
+.resumeNDlinks {
+  border: 1px solid green;
+}
+.resume {
+  border: 1px solid rosybrown;
+}
+.links {
+  border: 1px solid brown;
+}
+.portfolio  {
+  border: 1px solid blue;
+}
